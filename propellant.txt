@@ -1,0 +1,62 @@
+Propellant,Type,Pollutants,Diffusion Coefficient (cm²/s)
+Liquid Oxygen (LOX),Chemical Rocket,None,None
+LOX,Chemical Rocket,None,None
+RP-1,Chemical Rocket,Ammonia+Benzene,0.24+0.09
+Liquid Hydrogen (LH2),Chemical Rocket,None,None
+RP-1 (Hydrocarbon),Chemical Rocket,Ammonia+Benzene,0.24+0.09
+Hypergolic Propellant (H2O2, N2O4),Chemical Rocket,Nitrogen Oxides+Acetic Acid,0.17+0.14
+Solid Propellant,Chemical Rocket,Particulates+Oxides,0.1+0.1
+Methane,Chemical Rocket,CO+CO2,0.20+0.16
+Hypergolic Propellant (N2O4 + Hydrazine),Chemical Rocket,Nitrogen Oxides+Ammonia,0.17+0.24
+Hypergolic Propellant (N2O4 + UDMH),Chemical Rocket,Nitrogen Oxides+Formaldehyde,0.17+0.12
+Solid Propellant (Aluminum + KClO4),Chemical Rocket,Aluminum Oxides+Chlorofluorocarbons,0.1+0.1
+Hypergolic Propellant (N2O4 + MMH),Chemical Rocket,Nitrogen Oxides+Methanol,0.17+0.14
+Solid Propellant (Al + NH4ClO4),Chemical Rocket,Aluminum Oxides+Chlorides,0.1+0.1
+Hypergolic Propellant (H2O2 + UDMH),Chemical Rocket,Nitrogen Oxides+Formaldehyde,0.17+0.12
+Solid Propellant (Synthetic Rubber),Chemical Rocket,Toxic Gases+Particulates,0.1+0.1
+Methane + Solid Propellant,Chemical Rocket,Particulates+CO2,0.1+0.16
+Liquid Hydrogen (LH2) + Solid Propellant,Chemical Rocket,Particulates+Water Vapor,0.1+0.23
+Liquid Oxygen (LOX) + Solid Propellant,Chemical Rocket,Particulates+CO2,0.1+0.16
+Hypergolic Propellant (H2O2 + N2H4),Chemical Rocket,Nitrogen Oxides+Hydrogen,0.17+0.61
+Liquid Oxygen (LOX) + Ammonia,Chemical Rocket,Nitrogen Oxides+Water,0.17+0.23
+RP-1 + Nitrogen Oxides,Chemical Rocket,CO2+Water,0.16+0.23
+Liquid Hydrogen (LH2) + Nitrogen Oxides,Chemical Rocket,CO2+Water,0.16+0.23
+Solid Propellant (Synthetic Rubber) + LOX,Chemical Rocket,Toxic Gases+Particulates,0.1+0.1
+Methane + RP-1,Chemical Rocket,CO+CO2,0.20+0.16
+Hypergolic Propellant (H2O2 + N2H4),Chemical Rocket,Nitrogen Oxides+Hydrogen,0.17+0.61
+Liquid Hydrogen (LH2) + N2O4,Chemical Rocket,Nitrogen Oxides+Water,0.17+0.23
+RP-1 + Hypergolic Propellant (N2O4),Chemical Rocket,Nitrogen Oxides+Ammonia,0.17+0.24
+Solid Propellant (Al + KClO4),Chemical Rocket,Aluminum Oxides+Chlorofluorocarbons,0.1+0.1
+Liquid Hydrogen (LH2),Chemical Rocket,None,None
+Methane + Liquid Oxygen (LOX),Chemical Rocket,CO2+Water,0.16+0.23
+Hypergolic Propellant (N2O4 + MMH),Chemical Rocket,Nitrogen Oxides+Methanol,0.17+0.14
+Liquid Oxygen (LOX) + UDMH,Chemical Rocket,Nitrogen Oxides+Water,0.17+0.23
+Hypergolic Propellant (H2O2 + MMH),Chemical Rocket,Nitrogen Oxides+Methanol,0.17+0.14
+Solid Propellant (Synthetic Rubber),Chemical Rocket,Toxic Gases+Particulates,0.1+0.1
+RP-1 + Hypergolic Propellant (UDMH),Chemical Rocket,Formaldehyde+CO2,0.12+0.16
+Liquid Hydrogen (LH2) + Solid Propellant + LOX,Chemical Rocket,CO2+Water,0.16+0.23
+Hypergolic Propellant (N2O4 + Hydrazine),Chemical Rocket,Nitrogen Oxides+Ammonia,0.17+0.24
+Solid Propellant (Al + NH4ClO4),Chemical Rocket,Aluminum Oxides+Chlorides,0.1+0.1
+Liquid Oxygen (LOX) + Nitrogen Oxides,Chemical Rocket,CO2+Water,0.16+0.23
+Hypergolic Propellant (N2O4 + UDMH),Chemical Rocket,Nitrogen Oxides+Formaldehyde,0.17+0.12
+Methane + RP-1,Chemical Rocket,CO+CO2,0.20+0.16
+Liquid Hydrogen (LH2) + MMH,Chemical Rocket,Nitrogen Oxides+Water,0.17+0.23
+Liquid Oxygen (LOX) + RP-1 + Nitrogen Oxides,Chemical Rocket,CO2+Water,0.16+0.23
+Liquid Hydrogen (LH2) + Solid Propellant,Chemical Rocket,Particulates+Water Vapor,0.1+0.23
+Hypergolic Propellant (H2O2 + N2H4),Chemical Rocket,Nitrogen Oxides+Hydrogen,0.17+0.61
+Solid Propellant (KClO4 + Al),Chemical Rocket,Aluminum Oxides+Chlorofluorocarbons,0.1+0.1
+Liquid Hydrogen (LH2) + N2O4,Chemical Rocket,Nitrogen Oxides+Water,0.17+0.23
+RP-1 + Nitrogen Oxides,Chemical Rocket,CO2+Water,0.16+0.23
+Liquid Oxygen (LOX) + Hypergolic Propellant (UDMH),Chemical Rocket,Nitrogen Oxides+Water,0.17+0.23
+Methane + Liquid Oxygen (LOX),Chemical Rocket,CO2+Water,0.16+0.23
+Solid Propellant (Al + Fe2O3),Chemical Rocket,Aluminum Oxides+Iron Oxides,0.1+0.1
+Hypergolic Propellant (N2O4 + Hydrazine),Chemical Rocket,Nitrogen Oxides+Ammonia,0.17+0.24
+Biofuel (e.g., Ethanol),Biofuel,CO2+Water Vapor,0.16+0.23
+Hydrogen Peroxide (H2O2) - Low Concentration,Green Propellant,Water Vapor+Oxygen,0.23+0.20
+Liquid Methane + Liquid Oxygen (LOX),Chemical Rocket,CO2+Water,0.16+0.23
+Electric Propulsion (Ion Thrusters),Electric Propulsion,Low Levels of Ionized Particles,N/A
+Hall Effect Thrusters,Electric Propulsion,Low Levels of Ionized Particles+Neutral Atoms,N/A
+Gridded Ion Thrusters,Electric Propulsion,Low Levels of Ionized Particles+Neutral Atoms,N/A
+Kerosene,Chemical Rocket,Particulates + CO2,0.1+0.16
+Kerosene + Liquid Oxygen (LOX),Chemical Rocket,Particulates + CO2,0.1+0.16
+Kerosene + Nitrogen Oxides,Chemical Rocket,CO2 + Water,0.16+0.23

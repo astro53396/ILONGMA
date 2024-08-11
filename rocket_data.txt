@@ -1,0 +1,23 @@
+Rocket Type,Primary Material,Number of Main Engines,Number of Fuel Tanks,Weight (kg),Number of Stages
+SpaceX Falcon 9,Aluminum; Carbon Fiber,9,2 (1 RP-1; 1 LOX),549000,2
+SpaceX Falcon Heavy,Aluminum; Carbon Fiber,27,3 (2 RP-1; 1 LOX),1420000,3
+SpaceX Falcon 9 Block 5,Aluminum; Carbon Fiber,9,2 (1 RP-1; 1 LOX),549000,2
+SpaceX Starship,Stainless Steel,6 (Raptor Engines),2 (1 Methane; 1 LOX),1200000,2
+Space Shuttle,Aluminum; Steel,3 (Main Engines),3 (2 Solid Rocket Boosters; 1 External Tank),2040000,4
+Saturn V,Aluminum; Steel,5,3 (2 LOX; 1 RP-1),2900000,3
+Atlas V,Aluminum; Steel,1,2 (1 RP-1; 1 LOX),335000,2
+Delta IV Heavy,Aluminum; Steel,4,2 (1 RP-1; 1 LOX),733000,3
+Ariane 5,Aluminum; Steel,2,2 (1 LOX; 1 Kerosene),777000,2
+Soyuz,Aluminum; Steel,4,3 (2 LOX; 1 Kerosene),305000,3
+Proton-M,Aluminum; Steel,6,3 (1 LOX; 2 Kerosene),705000,3
+Long March 5,Aluminum; Steel,5,2 (1 LOX; 1 Kerosene),870000,2
+H-IIA,Aluminum; Steel,2,2 (1 LOX; 1 Kerosene),290000,2
+H-IIB,Aluminum; Steel,4,3 (1 LOX; 2 Kerosene),445000,3
+GSLV Mk III,Aluminum; Steel,4,2 (1 LOX; 1 Kerosene),640000,3
+Electron,Carbon Fiber; Aluminum,9,1 (1 RP-1),12000,2
+Astra Rocket 3,Aluminum; Steel,1,1 (1 RP-1),5500,1
+Falcon Heavy Block 5,Aluminum; Carbon Fiber,27,3 (2 RP-1; 1 LOX),1420000,3
+Saturn IB,Aluminum; Steel,8,2 (1 LOX; 1 RP-1),660000,2
+Falcon 1,Aluminum; Steel,1,1 (1 RP-1),27200,1
+SLS (Space Launch System),Aluminum; Steel,4,4 (2 LOX; 2 RP-1),2870000,4
+defalt rocket,Aluminum; Steel,1,1 (1 RP-1),27200,1
