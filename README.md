@@ -6,4 +6,4 @@
 ##### 다운로드 후 라이브러리들을 다운로드 받은 다음, 여러 로켓별 오염을 시뮬레이션해보세요!
 
 
-now: version1. prototype model.
+##### now: ILONGMA mk.1.0.1
