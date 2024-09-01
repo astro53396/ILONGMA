@@ -14,7 +14,7 @@ def install(package):
     try:
         __import__(package)
     except ImportError:
-        print(f"'{package}' 모듈이 설치되어 있지 않습니다. 설치를 시도합니다.")
+        print(f"The '{package}' module is not installed. Attempt installation.")
         subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
 # 필요한 패키지 목록
