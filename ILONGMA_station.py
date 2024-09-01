@@ -10,6 +10,22 @@ from Interfaces_module import RocketSelector
 import os
 from datetime import datetime
 
+def install(package):
+    try:
+        __import__(package)
+    except ImportError:
+        print(f"'{package}' 모듈이 설치되어 있지 않습니다. 설치를 시도합니다.")
+        subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+# 필요한 패키지 목록
+packages = [
+    'PyQt5', 'numpy', 'pandas', 'geopandas', 'shapely', 'matplotlib',
+    'contextily', 'geopy', 'pyproj', 'folium', 'pyqtwebengine'  # 'pyqtwebengine'는 'PyQtWebEngine'을 위한 패키지입니다.
+]
+
+for package in packages:
+    install(package)
+
 class Main(QMainWindow):
     def __init__(self, starting_window):
         super().__init__()
