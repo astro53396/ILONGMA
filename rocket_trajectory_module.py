@@ -17,6 +17,7 @@ from PyQt5.QtWidgets import (
     QApplication, QWidget, QLabel, QVBoxLayout, QPushButton, QDoubleSpinBox,
     QMessageBox
 )
+from PyQt5.QtGui import QIcon, QPixmap, QFont, QPainter
 from PyQt5.QtCore import QTimer, QUrl
 from PyQt5.QtWebEngineWidgets import QWebEngineView
 
