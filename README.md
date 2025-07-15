@@ -7,3 +7,6 @@
 
 
 ##### now: ILONGMA mk.1.0.1
+
+##### Updated : rocket trajectory module 에러 수정 완료
+#####           각개 pollutant별 응력 구현
