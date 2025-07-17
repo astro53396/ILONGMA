@@ -21,3 +21,6 @@ Saturn IB,Aluminum; Steel,8,2 (1 LOX; 1 RP-1),660000,2
 Falcon 1,Aluminum; Steel,1,1 (1 RP-1),27200,1
 SLS (Space Launch System),Aluminum; Steel,4,4 (2 LOX; 2 RP-1),2870000,4
 defalt rocket,Aluminum; Steel,1,1 (1 RP-1),27200,1
+SpaceX Falcon 9 Block 5,Aluminum‑lithium alloy,9+1 vacuum,2 (1 RP‑1; 1 LOX),549054,2
+China Long March 12,Aluminum alloy,4+2,2 (1 RP‑1; 1 LOX),600000,2
+SpaceX Super Heavy (Starship Booster),Stainless steel,33,2 (1 Methane; 1 LOX),5000000,1
