@@ -18,11 +18,14 @@ from PyQt5.QtWidgets import (
     QMessageBox
 )
 from PyQt5.QtGui import QIcon, QPixmap, QFont, QPainter
-from PyQt5.QtCore import QTimer, QUrl
+from PyQt5.QtCore import QTimer, QUrl, pyqtSignal
 from PyQt5.QtWebEngineWidgets import QWebEngineView
 
 
 class RocketSimulation(QWidget):
+
+    closed = pyqtSignal()
+    
     def __init__(self):
         super().__init__()
         self.initUI()
@@ -104,6 +107,10 @@ class RocketSimulation(QWidget):
 
         # Store positions for the map
         self.positions = []
+
+    def closeEvent(self, event):
+        self.closed.emit()
+        super().closeEvent(event)
 
     def loadCoordinates(self):
         # Load the initial latitude and longitude from coordinates.txt
