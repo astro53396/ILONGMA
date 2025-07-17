@@ -7,6 +7,7 @@ from map_module import WebViewer, html_content
 from Settings_module import General
 from Simulating_module import Simulation
 from Interfaces_module import RocketSelector
+from rocket_trajectory_module import RocketSimulation
 import os
 from datetime import datetime
 
@@ -137,7 +138,7 @@ class Main(QMainWindow):
     def openSimulations(self):
         if self.simulation_open:
             return
-        self.simulation_window = Simulation()
+        self.simulation_window = RocketSimulation()
         self.simulation_window.closed.connect(self.onSimulationWindowClosed)
         self.simulation_window.show()
         self.simulation_window.raise_()
