@@ -6,7 +6,7 @@
 ##### 다운로드 후 라이브러리들을 다운로드 받은 다음, 여러 로켓별 오염을 시뮬레이션해보세요!
 
 
-##### now: ILONGMA mk.1.0.1
+##### now: ILONGMA mk.2.0.2
 
 ##### Updated : rocket trajectory module 에러 수정 완료
 #####           각개 pollutant별 응력 구현
