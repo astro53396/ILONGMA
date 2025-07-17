@@ -18,10 +18,10 @@ def install(package):
         print(f"The '{package}' module is not installed. Attempt installation.")
         subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
-# 필요한 패키지 목록
+
 packages = [
     'PyQt5', 'numpy', 'pandas', 'geopandas', 'shapely', 'matplotlib',
-    'contextily', 'geopy', 'pyproj', 'folium', 'pyqtwebengine'  # 'pyqtwebengine'는 'PyQtWebEngine'을 위한 패키지입니다.
+    'contextily', 'geopy', 'pyproj', 'folium', 'pyqtwebengine' 
 ]
 
 for package in packages:
@@ -136,13 +136,19 @@ class Main(QMainWindow):
         self.general_window.raise_()
 
     def openSimulations(self):
-        if self.simulation_open:
-            return
-        self.simulation_window = RocketSimulation()
-        self.simulation_window.closed.connect(self.onSimulationWindowClosed)
+        if not self.simulation_window:
+            self.simulation_window = RocketSimulation()
+            self.simulation_window.closed.connect(self.simulationClosed)
+
         self.simulation_window.show()
         self.simulation_window.raise_()
         self.simulation_open = True
+        
+
+    def simulationClosed(self):
+        self.simulation_window = None
+        self.simulation_open = False
+
 
     def openInterfaces(self):
         if not self.interface_window:
